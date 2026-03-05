@@ -11,19 +11,45 @@ This project simulates how a data center monitoring system could predict **hot-c
 
 ---
 
-## 📊 Dashboard Preview
+## 📊 Dashboard Scenarios
 
-Create a folder called **assets** in the project root and place your dashboard screenshot there.
+<table>
+<tr>
+<td align="center">
 
-```
-assets/dashboard.png
-```
+### Low Load
+<img src="assets/low_load.png" width="400">
 
-Then the image will appear here:
+</td>
+<td align="center">
 
-![Dashboard](assets/dashboard.png)
+### Normal Load
+<img src="assets/normal_load.png" width="400">
 
----
+</td>
+</tr>
+
+<tr>
+<td align="center">
+
+### Elevated State
+<img src="assets/elevated_state.png" width="400">
+
+</td>
+<td align="center">
+
+### High State
+<img src="assets/high_state.png" width="400">
+
+</td>
+</tr>
+</table>
+
+### Automatic Cooling Activated
+
+<img src="assets/high_load_with_automatic_cooldown.png" width="800">
+
+When the system detects high thermal risk, the autonomous cooling controller automatically adjusts conditions to stabilize the temperature.
 
 ## 🚀 Project Overview
 
